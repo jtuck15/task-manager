@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+body {
+    background-color: #e0e4e4;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+div.nav-wrapper {
+    background-color: black;
+    font-weight: bold;
+}
+
+.btn_small {
+    height: 24px;
+    width: 60px;
+    line-height: 24px;
+    margin: 5px 5px;
+    padding: 0 0.5em;
+}
+
+.task_header {
+    margin-top: 5px;
+}
+
+i.medium.material-icons.left {
+    margin-right: 4px;
+    margin-left: 15px;
+}
+
+.brand-logo-task {
+    font-size: 2.4em;
+    margin-left: 15px;
+}
+
+
+/*@media (max-width: 649px) {*/
+/*  i.material-icons.move-left {*/
+/*    margin-left: -20px;*/
+/*}  */
+/*}*/
+
+/*@media (max-width: 535px) {*/
+/*  i.material-icons.move-left {*/
+/*    margin-left: -35px;*/
+/*}  */
+/*}*/
+
+/*@media (max-width: 456px) {*/
+/*    .waves-effect.waves-light.btn.btn_small.blue.media-query {*/
+/*        margin-top: -40px;*/
+/*    }*/
+/*}*/
