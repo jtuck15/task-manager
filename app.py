@@ -5,6 +5,8 @@ from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
+app.secret_key = os.getenv("SECRET", "randomstring123")
+
 app.config['MONGO_DBNAME'] ='task manager'
 app.config['MONGO_URI'] = os.getenv("MONGO_URI")
 
